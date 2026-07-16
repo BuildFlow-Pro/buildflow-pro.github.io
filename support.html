@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — BuildFlow</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+  :root {
+    --navy-dark: #0F2A47;
+    --navy: #123252;
+    --blue: #1B5C8C;
+    --orange: #E8823F;
+    --cream: #F7F5F2;
+    --ink: #1C2733;
+    --ink-soft: #4A5A6B;
+    --line: #DCE2E6;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    line-height: 1.6;
+  }
+
+  h1, h2, .brand { font-family: 'Space Grotesk', sans-serif; }
+
+  a { color: var(--blue); }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 6vw;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .brand {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--navy-dark);
+    text-decoration: none;
+  }
+
+  header a.back {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--ink-soft);
+    text-decoration: none;
+  }
+
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 70px 6vw 100px;
+  }
+
+  .eyebrow {
+    color: var(--orange);
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 4vw, 2.6rem);
+    color: var(--navy-dark);
+    margin-bottom: 16px;
+    letter-spacing: -0.01em;
+  }
+
+  main > p.lead {
+    color: var(--ink-soft);
+    font-size: 1.1rem;
+    margin-bottom: 48px;
+    max-width: 540px;
+  }
+
+  .contact-card {
+    background: white;
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--orange);
+    border-radius: 10px;
+    padding: 28px 32px;
+    margin-bottom: 56px;
+  }
+
+  .contact-card h2 {
+    font-size: 1.1rem;
+    color: var(--navy-dark);
+    margin-bottom: 10px;
+  }
+
+  .contact-card a {
+    font-size: 1.05rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .contact-card a:hover { text-decoration: underline; }
+
+  .contact-card p {
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+    margin-top: 6px;
+  }
+
+  h2.section-title {
+    font-size: 1.3rem;
+    color: var(--navy-dark);
+    margin-bottom: 24px;
+  }
+
+  details {
+    border-bottom: 1px solid var(--line);
+    padding: 18px 0;
+  }
+
+  summary {
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--ink);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  summary::-webkit-details-marker { display: none; }
+
+  summary::after {
+    content: "+";
+    color: var(--orange);
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  details[open] summary::after { content: "–"; }
+
+  details p {
+    color: var(--ink-soft);
+    margin-top: 12px;
+    font-size: 0.97rem;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 32px 6vw;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="brand">BuildFlow</a>
+  <a href="index.html" class="back">&larr; Back to home</a>
+</header>
+
+<main>
+  <div class="eyebrow">Support</div>
+  <h1>How can we help?</h1>
+  <p class="lead">Whether you're stuck on a setup step or found something that doesn't look right, here's how to reach us.</p>
+
+  <div class="contact-card">
+    <h2>Email support</h2>
+    <a href="mailto:support@buildflowapp.com">support@buildflowapp.com</a>
+    <p>We typically respond within one business day.</p>
+  </div>
+
+  <h2 class="section-title">Common questions</h2>
+
+  <details open>
+    <summary>How do I create my first estimate?</summary>
+    <p>From the Home screen, tap the + button and choose Estimate. Add a customer, then add labor and material line items. You can send it for approval by email or text once it's ready.</p>
+  </details>
+
+  <details>
+    <summary>How do payments work?</summary>
+    <p>Once an estimate is approved, you can convert it into an invoice with one tap. Customers can pay by card directly from the invoice link, and BuildFlow will send automatic reminders for anything left outstanding.</p>
+  </details>
+
+  <details>
+    <summary>Can I use BuildFlow with my crew?</summary>
+    <p>Yes. You can assign jobs to crew members from the Schedule tab and they'll see their assignments and reminders.</p>
+  </details>
+
+  <details>
+    <summary>How do I cancel or change my subscription?</summary>
+    <p>Subscriptions are managed through your Apple ID. Go to Settings on your iPhone, tap your name, then Subscriptions, and select BuildFlow to change or cancel your plan.</p>
+  </details>
+
+  <details>
+    <summary>I found a bug. How do I report it?</summary>
+    <p>Email us at support@buildflowapp.com with a description of what happened and, if possible, a screenshot. Include your device model and iOS version so we can look into it faster.</p>
+  </details>
+</main>
+
+<footer>
+  &copy; 2026 BuildFlow. All rights reserved.
+</footer>
+
+</body>
+</html>
