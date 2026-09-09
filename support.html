@@ -1,210 +1,108 @@
 <!DOCTYPE html>
+<!--
+  BuildFlow Pro - Support page. Satisfies App Store Guideline 1.5.
+  >>> BEFORE SUBMITTING TO APPLE: replace every SUPPORT_EMAIL_PLACEHOLDER@example.com
+  with a real mailbox you control, then delete the setup-notice div. <<<
+  No frameworks, no external fonts, scripts or stylesheets.
+-->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Support — BuildFlow</title>
+<title>Support &mdash; BuildFlow Pro</title>
+<meta name="description" content="Support and contact information for BuildFlow Pro, the job, estimate and invoice app for contractors.">
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
-
-  :root {
-    --navy-dark: #0F2A47;
-    --navy: #123252;
-    --blue: #1B5C8C;
-    --orange: #E8823F;
-    --cream: #F7F5F2;
-    --ink: #1C2733;
-    --ink-soft: #4A5A6B;
-    --line: #DCE2E6;
-  }
-
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-
-  body {
-    font-family: 'Inter', -apple-system, sans-serif;
-    background: var(--cream);
-    color: var(--ink);
-    line-height: 1.6;
-  }
-
-  h1, h2, .brand { font-family: 'Space Grotesk', sans-serif; }
-
-  a { color: var(--blue); }
-
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 28px 6vw;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .brand {
-    font-weight: 700;
-    font-size: 1.3rem;
-    color: var(--navy-dark);
-    text-decoration: none;
-  }
-
-  header a.back {
-    font-size: 0.95rem;
-    font-weight: 500;
-    color: var(--ink-soft);
-    text-decoration: none;
-  }
-
-  main {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 70px 6vw 100px;
-  }
-
-  .eyebrow {
-    color: var(--orange);
-    font-weight: 600;
-    font-size: 0.85rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    margin-bottom: 14px;
-  }
-
-  h1 {
-    font-size: clamp(2rem, 4vw, 2.6rem);
-    color: var(--navy-dark);
-    margin-bottom: 16px;
-    letter-spacing: -0.01em;
-  }
-
-  main > p.lead {
-    color: var(--ink-soft);
-    font-size: 1.1rem;
-    margin-bottom: 48px;
-    max-width: 540px;
-  }
-
-  .contact-card {
-    background: white;
-    border: 1px solid var(--line);
-    border-left: 3px solid var(--orange);
-    border-radius: 10px;
-    padding: 28px 32px;
-    margin-bottom: 56px;
-  }
-
-  .contact-card h2 {
-    font-size: 1.1rem;
-    color: var(--navy-dark);
-    margin-bottom: 10px;
-  }
-
-  .contact-card a {
-    font-size: 1.05rem;
-    font-weight: 600;
-    text-decoration: none;
-  }
-  .contact-card a:hover { text-decoration: underline; }
-
-  .contact-card p {
-    color: var(--ink-soft);
-    font-size: 0.95rem;
-    margin-top: 6px;
-  }
-
-  h2.section-title {
-    font-size: 1.3rem;
-    color: var(--navy-dark);
-    margin-bottom: 24px;
-  }
-
-  details {
-    border-bottom: 1px solid var(--line);
-    padding: 18px 0;
-  }
-
-  summary {
-    font-weight: 600;
-    cursor: pointer;
-    color: var(--ink);
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  summary::-webkit-details-marker { display: none; }
-
-  summary::after {
-    content: "+";
-    color: var(--orange);
-    font-size: 1.3rem;
-    font-weight: 400;
-  }
-  details[open] summary::after { content: "–"; }
-
-  details p {
-    color: var(--ink-soft);
-    margin-top: 12px;
-    font-size: 0.97rem;
-  }
-
-  footer {
-    border-top: 1px solid var(--line);
-    padding: 32px 6vw;
-    text-align: center;
-    color: var(--ink-soft);
-    font-size: 0.9rem;
-  }
+:root{--navy-dark:#0F2A47;--blue:#1B5C8C;--orange:#E8823F;--cream:#F7F5F2;--ink:#1C2733;--ink-soft:#4A5A6B;--line:#DCE2E6}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;-webkit-text-size-adjust:100%}
+a{color:var(--blue)}
+header{display:flex;align-items:center;justify-content:space-between;padding:24px 6vw;border-bottom:1px solid var(--line);background:#fff}
+.brand{font-weight:700;font-size:1.25rem;color:var(--navy-dark);text-decoration:none;letter-spacing:-.01em}
+header .back{font-size:.95rem;font-weight:500;color:var(--ink-soft);text-decoration:none}
+main{max-width:720px;margin:0 auto;padding:56px 6vw 80px}
+.eyebrow{color:var(--orange);font-weight:600;font-size:.8rem;letter-spacing:.09em;text-transform:uppercase;margin-bottom:12px}
+h1{font-size:2.1rem;line-height:1.2;color:var(--navy-dark);margin-bottom:14px;letter-spacing:-.015em}
+p.lead{color:var(--ink-soft);font-size:1.08rem;margin-bottom:40px;max-width:560px}
+.setup-notice{background:#FFF4E5;border:1px solid #E8823F;border-radius:10px;padding:16px 20px;margin-bottom:32px;font-size:.93rem;color:#7A4A16}
+.setup-notice strong{display:block;margin-bottom:4px;color:#5C3610}
+.contact-card{background:#fff;border:1px solid var(--line);border-left:3px solid var(--orange);border-radius:10px;padding:24px 28px;margin-bottom:48px}
+.contact-card h2{font-size:1.05rem;color:var(--navy-dark);margin-bottom:8px}
+.contact-card a{font-size:1.05rem;font-weight:600;text-decoration:none;word-break:break-all}
+.contact-card a:hover{text-decoration:underline}
+.contact-card p{color:var(--ink-soft);font-size:.94rem;margin-top:8px}
+h2.section-title{font-size:1.25rem;color:var(--navy-dark);margin-bottom:8px}
+.faq{margin-bottom:48px}
+.qa{border-bottom:1px solid var(--line);padding:20px 0}
+.qa h3{font-size:1rem;font-weight:600;color:var(--ink);margin-bottom:8px}
+.qa p{color:var(--ink-soft);font-size:.97rem}
+.privacy-box{background:#fff;border:1px solid var(--line);border-radius:10px;padding:24px 28px;margin-bottom:40px}
+.privacy-box h2{font-size:1.05rem;color:var(--navy-dark);margin-bottom:10px}
+.privacy-box p{color:var(--ink-soft);font-size:.96rem;margin-bottom:10px}
+.privacy-box p:last-child{margin-bottom:0}
+footer{border-top:1px solid var(--line);padding:28px 6vw;text-align:center;color:var(--ink-soft);font-size:.88rem;background:#fff}
+footer a{color:var(--ink-soft)}
+.updated{margin-top:6px;font-size:.85rem}
+@media (max-width:600px){h1{font-size:1.7rem}main{padding:40px 6vw 60px}.contact-card,.privacy-box{padding:20px}}
 </style>
 </head>
 <body>
-
 <header>
-  <a href="index.html" class="brand">BuildFlow</a>
-  <a href="index.html" class="back">&larr; Back to home</a>
+  <a href="index.html" class="brand">BuildFlow Pro</a>
+  <a href="index.html" class="back">&larr; Home</a>
 </header>
-
 <main>
   <div class="eyebrow">Support</div>
-  <h1>How can we help?</h1>
-  <p class="lead">Whether you're stuck on a setup step or found something that doesn't look right, here's how to reach us.</p>
+  <h1>BuildFlow Pro Support</h1>
+  <p class="lead">BuildFlow Pro is a job, estimate and invoice app for contractors and tradespeople. If something is not working, or you have a question, contact us below.</p>
 
-  <div class="contact-card">
-    <h2>Email support</h2>
-    <a href="mailto:support@buildflowapp.com">support@buildflowapp.com</a>
-    <p>We typically respond within one business day.</p>
+  <div class="setup-notice">
+    <strong>Setup note for the developer</strong>
+    The support address on this page is still a placeholder. Replace every occurrence of SUPPORT_EMAIL_PLACEHOLDER@example.com with a real mailbox, then delete this notice, before submitting to App Review.
   </div>
 
-  <h2 class="section-title">Common questions</h2>
+  <div class="contact-card">
+    <h2>Contact support</h2>
+    <a href="mailto:SUPPORT_EMAIL_PLACEHOLDER@example.com?subject=BuildFlow%20Pro%20Support">SUPPORT_EMAIL_PLACEHOLDER@example.com</a>
+    <p>Email is the fastest way to reach us. We aim to reply within one business day. Please include your device model, your iOS version, and what you were doing when the problem happened.</p>
+  </div>
 
-  <details open>
-    <summary>How do I create my first estimate?</summary>
-    <p>From the Home screen, tap the + button and choose Estimate. Add a customer, then add labor and material line items. You can send it for approval by email or text once it's ready.</p>
-  </details>
+  <h2 class="section-title">Frequently asked questions</h2>
+  <div class="faq">
+    <div class="qa">
+      <h3>What does BuildFlow Pro do?</h3>
+      <p>It runs the paperwork side of a contracting business from your phone. You can create unlimited jobs, estimates and invoices, build invoices from line items, record payments and see what is still owed, log crew hours, attach before and after photos to a job, and see revenue and outstanding balances on a dashboard.</p>
+    </div>
+    <div class="qa">
+      <h3>Where is my business data stored?</h3>
+      <p>On your device. There is no account to create and no server holding your customer list, jobs, estimates or invoices. Your records live in the app's document folder, which is included in your normal iPhone or iPad backup, so a restored device keeps its records. Because the data is local, it does not sync between devices.</p>
+    </div>
+    <div class="qa">
+      <h3>How do I create an estimate and turn it into an invoice?</h3>
+      <p>Create the customer first, then create an estimate and add your labor and material line items. When the customer approves it, create an invoice from that estimate so the line items and customer details carry over. The invoice tracks what has been paid and what is still outstanding.</p>
+    </div>
+    <div class="qa">
+      <h3>Can BuildFlow Pro take card payments from my customers?</h3>
+      <p>No. BuildFlow Pro records payments you have already collected so your books stay accurate. It does not process card payments and it does not send payment links. You collect payment however you normally do, then record the amount and method in the app. An unpaid invoice past its due date is marked overdue automatically.</p>
+    </div>
+    <div class="qa">
+      <h3>What does the subscription cost, and how do I cancel?</h3>
+      <p>BuildFlow Pro Monthly is an auto-renewing subscription billed through your Apple ID. It renews automatically unless you cancel at least 24 hours before the current period ends. To manage or cancel, open Settings on your iPhone or iPad, tap your name, tap Subscriptions, then select BuildFlow. Refunds are handled by Apple, not by us.</p>
+    </div>
+    <div class="qa">
+      <h3>The app will not open, or something is broken. What do I do?</h3>
+      <p>First, force quit the app and reopen it, and make sure you are on the latest version from the App Store. If it still fails, email SUPPORT_EMAIL_PLACEHOLDER@example.com with your device model, your iOS version, and the steps that led to the problem. Screenshots help. Deleting the app removes the business records stored on that device, so contact us before you do that.</p>
+    </div>
+  </div>
 
-  <details>
-    <summary>How do payments work?</summary>
-    <p>Once an estimate is approved, you can convert it into an invoice with one tap. Customers can pay by card directly from the invoice link, and BuildFlow will send automatic reminders for anything left outstanding.</p>
-  </details>
-
-  <details>
-    <summary>Can I use BuildFlow with my crew?</summary>
-    <p>Yes. You can assign jobs to crew members from the Schedule tab and they'll see their assignments and reminders.</p>
-  </details>
-
-  <details>
-    <summary>How do I cancel or change my subscription?</summary>
-    <p>Subscriptions are managed through your Apple ID. Go to Settings on your iPhone, tap your name, then Subscriptions, and select BuildFlow to change or cancel your plan.</p>
-  </details>
-
-  <details>
-    <summary>I found a bug. How do I report it?</summary>
-    <p>Email us at support@buildflowapp.com with a description of what happened and, if possible, a screenshot. Include your device model and iOS version so we can look into it faster.</p>
-  </details>
+  <div class="privacy-box">
+    <h2>Privacy</h2>
+    <p>Your jobs, estimates, invoices and customer details stay on your device. No server receives them. BuildFlow Pro does not use advertising, analytics, tracking or crash reporting. The only information that leaves the device is the subscription purchase record, handled by our payment provider under an anonymous identifier. Apple processes all payments and the app never sees a card number.</p>
+    <p><a href="privacy.html">Read the full Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="terms.html">Terms of Service</a></p>
+  </div>
 </main>
-
 <footer>
-  &copy; 2026 BuildFlow. All rights reserved.
+  <div>Questions? <a href="mailto:SUPPORT_EMAIL_PLACEHOLDER@example.com">SUPPORT_EMAIL_PLACEHOLDER@example.com</a></div>
+  <div class="updated">Last updated: September 9, 2026 &nbsp;&middot;&nbsp; &copy; 2026 BuildFlow. All rights reserved.</div>
 </footer>
-
 </body>
 </html>
